@@ -12,12 +12,13 @@
 }
 header {
     grid-row: 1 / 2;
-    background-color: transparent black;
     position: sticky;
+    background: linear-gradient(-45deg , #F76E11, #FC4F4F);
     top: 0px;
     display: flex;
     justify-content: space-around;
     border-bottom: 5px solid white;
+    z-index: 1;
 }
 .MainLogo {
     width: 100px;
@@ -167,17 +168,15 @@ main {
     grid-row: 2 / 3;
     display: grid;
     grid-template-rows: 100px auto;
+    z-index: 0;
 }
 .topmain {
-    width: 100vw;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
 }
 .type {
-    width: 100vw;
-    height: 100px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 .box {
@@ -186,11 +185,11 @@ main {
     background-color: white;
     border: 3px solid #03396c;
     border-right: 0px;
+    transition: 0.2s;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.2s;
-    cursor: pointer;
 }   
 .box:hover {
     background-color: gainsboro;
@@ -202,11 +201,12 @@ main {
     background-color: white;
     border: 3px solid #03396c;
     font-size: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     transition: 0.2s;
 }
 .BoxTwo:hover {
     background-color: gainsboro;
+}
+.forearms {
+    color: white;
+    font-size: 40px;
 }
