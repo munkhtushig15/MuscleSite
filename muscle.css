@@ -403,22 +403,24 @@ main {
 }.rightthigh:hover {
     transform: scale(1.2);
 }
-.leftkalf:hover {
+.rightleg:hover {
     transform: scale(1.2);
-}.rightkalf:hover {
+}
+.leftleg:hover {
     transform: scale(1.2);
-}.rightleg:hover {
+}
+.rightthigh:hover {
     transform: scale(1.2);
-}.leftleg:hover {
+}
+.rightthigh:hover {
     transform: scale(1.2);
-}.rightthigh:hover {
+}
+.rightthigh:hover {
     transform: scale(1.2);
-}.rightthigh:hover {
+}
+.rightthigh:hover {
     transform: scale(1.2);
-}.rightthigh:hover {
-    transform: scale(1.2);
-}.rightthigh:hover {
-    transform: scale(1.2);
-}.leftforearm:hover {
+}
+.leftforearm:hover {
     transform: scale(1.2);
 }
