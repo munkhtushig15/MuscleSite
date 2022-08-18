@@ -6,9 +6,8 @@
 .container {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(-45deg , #F76E11, #FC4F4F);
     display: grid;
-    grid-template-rows: 120px auto 220px;
+    grid-template-rows: 120px 1000px 220px;
 }
 header {
     grid-row: 1 / 2;
@@ -18,6 +17,7 @@ header {
     display: flex;
     justify-content: space-around;
     border-bottom: 5px solid white;
+    z-index: 1;
 }
 .MainLogo {
     width: 100px;
@@ -157,11 +157,13 @@ main {
     grid-row: 2 / 3;
     display: grid;
     grid-template-rows: 100px auto;
+    background-color: #EDDDD4;
+    z-index: 0;
 }
 .topmain {
-    width: 100vw;
     display: flex;
     justify-content: space-between;
+    background-color: #EDDDD4;
 }
 .type {
     width: 100vw;
@@ -199,4 +201,217 @@ main {
 }
 .BoxTwo:hover {
     background-color: gainsboro;
+}
+/* .leftshouldermuscle:hover{
+    transform: scale(1.2); */
+.malefigures {
+    padding-bottom: 50px;
+
+}
+    .leftshouldermuscle {
+
+        position: absolute;
+        top: 18.4%;
+        left: 26.7%;
+        transition: 0.5s;
+        width: 1.8%;
+    }
+
+    .rightshouldermuscle {
+    
+        position: absolute;
+        top: 18.4%;
+        left: 30.48%;
+        width: 1.8%;
+        transition: 0.5s;
+    
+    }
+    
+    .leftshoulder {
+    
+        position: absolute;
+        top: 20.6%;
+        left: 22.2%;
+        width: 3.61%;
+        transition: 0.5s;
+    }
+    
+    .rightshoulder {
+    
+        position: absolute;
+        top: 20.6%;
+        left: 33.7%;
+        width: 3.61%;
+        transition: 0.5s;
+    
+    }
+    
+    .boobs {
+    
+        position: absolute;
+        top: 22%;
+        left: 25.4%;
+        width: 8%;
+        transition: 0.5s;
+    }
+    
+    .leftbicep {
+    
+        position: absolute;
+        top: 27.68%;
+        left: 21.3%;
+        width: 2.05%;
+        transition: 0.5s;
+    }
+    
+    .rightbicep {
+    
+        position: absolute;
+        top: 27.78%;
+        left: 36.2%;
+        width: 2.05%;
+        transition: 0.5s;
+    
+    }
+    
+    .leftforearm {
+    
+        position: absolute;
+        top: 35.1%;
+        left: 17.3%;
+        width: 3.62%;
+        transition: 0.5s;
+    
+    }
+    
+    .rightforearm {
+    
+        position: absolute;
+        top: 35.5%; 
+        left: 37.6%;
+        width: 3.61%;
+        transition: 0.5s;
+    
+    }
+    
+    .sixpack {
+    
+        position: absolute;
+        top: 29.5%;
+        left: 26.8%;
+        width: 4.78%;
+        transition: 0.5s;
+    
+    }
+    
+    
+    
+    .leftthigh {
+    
+        position: absolute;
+        top: 33%;
+        left: 23.5%;
+        width: 3.3%;
+        transition: 0.5s;
+        
+    
+    }
+    
+    .rightthigh {
+    
+        position: absolute;
+        top: 33%;
+        left: 31.9%;
+        width: 3.3%;
+        transition: 0.5s;
+    
+    }
+    
+    .leftkalf {
+    
+        position: absolute;
+        top: 44.5%;
+        left: 23.6%;
+        width: 2.7%;
+        transition: 0.5s;
+    
+    }
+    
+    .rightkalf {
+    
+        position: absolute;
+        top: 44.5%;
+        left: 32.4%;
+        width: 2.7%;
+        transition: 0.5s;
+    
+    }
+    
+    .rightleg {
+    
+        position: absolute;
+        top: 57%;
+        left: 22.3%;
+        width: 3.5%;
+        transition: 0.5s;
+    }
+    
+    .leftleg {
+    
+        position: absolute;
+        top: 57%;
+        left: 32.8%;
+        width: 3.5%;
+        transition: 0.5s;
+    
+    }
+
+.leftshouldermuscle:hover {
+    transform: scale(1.2);
+}
+.rightshouldermuscle:hover {
+    transform: scale(1.2);
+}
+.leftshoulder:hover {
+    transform: scale(1.2);
+}
+.rightshoulder:hover {
+    transform: scale(1.2);
+}
+.boobs:hover {
+    transform: scale(1.2);
+}
+.leftbicep:hover {
+    transform: scale(1.2);
+}
+.rightbicep:hover {
+    transform: scale(1.2);
+}
+.sixpack:hover {
+    transform: scale(1.2);
+}.rightforearm:hover {
+    transform: scale(1.2);
+}.leftthigh:hover {
+    transform: scale(1.2);
+}.rightthigh:hover {
+    transform: scale(1.2);
+}
+.leftkalf:hover {
+    transform: scale(1.2);
+}.rightkalf:hover {
+    transform: scale(1.2);
+}.rightleg:hover {
+    transform: scale(1.2);
+}.leftleg:hover {
+    transform: scale(1.2);
+}.rightthigh:hover {
+    transform: scale(1.2);
+}.rightthigh:hover {
+    transform: scale(1.2);
+}.rightthigh:hover {
+    transform: scale(1.2);
+}.rightthigh:hover {
+    transform: scale(1.2);
+}.leftforearm:hover {
+    transform: scale(1.2);
 }
