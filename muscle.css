@@ -19,12 +19,31 @@ header {
     border-bottom: 5px solid white;
     z-index: 1;
 }
-#srch {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 0;
+.searchContainer {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+.glass {
+    color: black;
+    padding: 8px;
     background-color: #EDDDD4;
+    border-radius: 50% 0 0 50%;
+    position: relative;
+    left: 8px;
+}
+#srch {
+    outline: none;
+    border: 0;
+    border-radius: 0 20px 20px 0px ;
+    width: 120px;
+    height: 40px;
+    padding-left: 12px;
+    background-color: #EDDDD4;    
+    color: black;
+    transition: 1s;
 }
 .MainLogo {
     width: 100px;
@@ -45,11 +64,6 @@ header {
     align-items: center;
     gap:80px;
 }
-.searchContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}   
 #Search {
     width: 50px;
     height: 50px;
