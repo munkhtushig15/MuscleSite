@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 120px auto 220px;
+}
+header {
+    grid-row: 1 / 2;
+    position: sticky;
+    background: linear-gradient(-45deg ,#194350, #9DBEB9, #194350);
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 5px solid white;
+    z-index: 1;
+}
+.MainLogo {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.mnlogo:hover {
+    cursor: pointer;
+}
+.logo {
+    display: flex;
+    gap: 100px;
+}
+.menus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:80px;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Search {
+    width: 50px;
+    height: 50px;
+    background-color: #194350;
+    outline: none;
+    border: 0px;
+    border-radius: 50%;
+    color: white;
+
+}
+#slct {   
+     background: linear-gradient(-45deg ,#194350, #194350);
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 120px;
+    font-size: 20px;
+    color: white;
+    transition: 0.5s;
+}
+#slct:hover {
+    box-shadow: 0px 0px 25px #bdeaee ;
+}
+.mnlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+footer {
+    grid-row: 3 / 4;
+    border-top: 5px solid white;
+    background: linear-gradient(-45deg , #005b96, #03396c);
+    display: flex;
+    justify-content: space-around;
+}
+.system {
+    font-size: 40px !important;
+    color: gainsboro;
+}
+.app {
+    font-size: 40px !important;
+    color: gainsboro;
+}
+.copyRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.android {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.supports {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.copy {
+    font-size: 18px;
+    color: gainsboro;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.uria {
+    font-size: 25px;
+    color: gainsboro;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.insta {
+    transition: 0.5s;
+}
+.twitter {
+    transition: 0.5s;
+}
+.face {
+    transition: 0.5s;
+}
+.red {
+    transition: 0.5s;
+}
+.insta:hover {
+    color: #FC4F4F;
+}
+.twitter:hover {
+    color: #63ace5;
+}
+.face:hover {
+    color: #4b86b4;
+}
+.red:hover {
+    color:  #f37736 ;
+}
+.and {
+    transition: 0.5s;
+}
+.ip {
+    transition: 0.5s;
+}
+.and:hover {
+    color: #7bc043 ; 
+}
+.ip:hover {
+    color: black;
+}
+main {
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-rows: 80px auto;
+    z-index: 0;
+}
+.topmain {
+    width: 100vw;
+    height: 80px;
+    background-color: #126E82;
+    /* background: linear-gradient(-45deg , #9DBEB9, #126E82); */
+    padding-top: 20px;
+    border-bottom: 5px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.type {
+    display: flex;
+    align-items: center;
+}
+.box {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: 3px solid #03396c;
+    border-right: 0px;
+    transition: 0.2s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.box:hover {
+    background-color: gainsboro;
+}
+.BoxTwo {
+    cursor: pointer;
+    width: 100px;
+    height: 36px;
+    background-color: white;
+    border: 3px solid #03396c;
+    font-size: 16px;
+    transition: 0.2s;
+}
+.BoxTwo:hover {
+    background-color: gainsboro;
+}
+.forearms {
+    color: white;
+    font-size: 40px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 150px;
+    background: linear-gradient(-45deg ,#194350, #9DBEB9, #194350);
+}
+.garchig2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 372px;
+    color: white;
+}
+.zuragneg {
+    display: flex;
+    gap: 20px;
+}
+.exneg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.zaavar {
+    display: flex;
+    justify-content: center;
+}
+.circle {
+    position: relative;
+    left: 5px;
+    bottom: 8px;
+    width: 40px;
+    height: 40px;
+    background-color: #005b96;
+    border-radius: 50%;
+    border: 3px solid #9DBEB9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.bichver {
+    background-color: white;
+    width: 800px;
+    height: 30px;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    border-radius: 0 25px 25px 0;
+}
+.massa{
+    position: relative;
+    left: 500px;
+}
+.zuragUmda {
+    width: 500px;
+    height: auto;
+    border: 3px solid white;
+}
