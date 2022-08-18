@@ -12,7 +12,7 @@
 }
 header {
     grid-row: 1 / 2;
-    background-color: transparent black;
+    background-color: #C44536;
     position: sticky;
     top: 0px;
     display: flex;

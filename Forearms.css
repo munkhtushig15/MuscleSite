@@ -12,7 +12,7 @@
 header {
     grid-row: 1 / 2;
     position: sticky;
-    background: linear-gradient(-45deg ,#194350, #9DBEB9, #194350);
+    background-color: #C44536;
     top: 0px;
     display: flex;
     justify-content: space-around;
@@ -59,12 +59,12 @@ header {
 
 }
 #slct {   
-     background: linear-gradient(-45deg ,#194350, #194350);
+    background-color: #EDDDD4;
     border-radius: 5px;
     border: 1px solid white;
     width: 120px;
     font-size: 20px;
-    color: white;
+    color: black;
     transition: 0.5s;
 }
 #slct:hover {
@@ -167,7 +167,7 @@ main {
 .topmain {
     width: 100vw;
     height: 80px;
-    background-color: #126E82;
+    background-color: #EDDDD4;
     /* background: linear-gradient(-45deg , #9DBEB9, #126E82); */
     padding-top: 20px;
     border-bottom: 5px solid white;
@@ -207,7 +207,7 @@ main {
     background-color: gainsboro;
 }
 .forearms {
-    color: white;
+    color: black;
     font-size: 40px;
 }
 main {
@@ -215,14 +215,14 @@ main {
     flex-direction: column;
     gap: 50px;
     padding-bottom: 150px;
-    background: linear-gradient(-45deg ,#194350, #9DBEB9, #194350);
+    background-color: #EDDDD4;
 }
 .garchig2 {
     display: flex;
     justify-content: center;
     position: relative;
     right: 372px;
-    color: white;
+    color: black;
 }
 .zuragneg {
     display: flex;
@@ -255,7 +255,7 @@ main {
 }
 .bichver {
     background-color: white;
-    width: 800px;
+    width: 1000px;
     height: 30px;
     display: flex;
     padding-left: 10px;
