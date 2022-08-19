@@ -7,7 +7,7 @@
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-rows: 120px 1000px 220px;
+    grid-template-rows: 120px 1100px 220px;
 }
 header {
     grid-row: 1 / 2;
@@ -185,14 +185,19 @@ main {
     display: flex;
     justify-content: center;
     padding-top: 15px;
-    gap: 710px;
 }
 .huis {
     color: black;
-    font-size: 22px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     cursor: pointer;
     transition: 0.4s;   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#em {
+    width: 500px;
+    height: auto;
 }
 .huis:hover {
     color: #005b96;
