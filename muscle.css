@@ -7,7 +7,7 @@
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-rows: 120px 800px 220px;
+    grid-template-rows: 120px 1000px 220px;
 }
 header {
     grid-row: 1 / 2;
@@ -399,6 +399,11 @@ main {
         width: 3.5%;
         transition: 0.5s;
     
+    }
+    .female {
+        position: absolute;
+        top: 28 .4%;
+        left: 59%;
     }
 
 .leftshouldermuscle:hover {
